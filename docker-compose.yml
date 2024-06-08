@@ -3,6 +3,6 @@ services:
     build: .
     stop_signal: SIGINT
     ports:
-      - '80:80'
+      - '81:81'
     volumes:
       - ./app:/app
